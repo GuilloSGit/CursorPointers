@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling my cursor</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/zoomIn small.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/zoomIn small.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/zoomIn small.svg">
+
+    <!-- Cascade Style Sheet -->
+    <link rel="stylesheet" href="styles/pointers.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1 class="main-title">Styling my cursor</h1>
+            <div class="content">
+                <h2 class="title">More than 20 types of pointers</h2>
+                <p class="text">You surely knew that with CSS you can assign different cursors events for user selection
+                    and interaction. Here is a list of more than 20 different options.</p>
+                <br>
+                <p class="text">Hover the boxes below and see how the cursor changes.</p>
+                <p class="text">If you clic over them, you copy to Clipboard the code for HTML / CSS for this specific pointer.</p>
+            </div>
+        </div>
+    </header>
+    <main class="main-container">
+        <div class="cards-container">
+            <div class="pointer pointer2" value="'yourClassHere':hover {cursor: default;}" onclick="copyToClipboard('pointer2')"  id='pointer2'>
+                <p>default</p>
+            </div>
+            <div class="pointer pointer0" value="'yourClassHere':hover {cursor: pointer;}" onclick="copyToClipboard('pointer0')"  id='pointer0'>
+                <p>pointer</p>
+            </div>
+            <div class="pointer pointer1" value="'yourClassHere':hover {cursor: crosshair;}"  id='pointer1'
+                onclick="copyToClipboard('pointer1')">
+                <p>crosshair</p>
+            </div>
+            <div class="pointer pointer3" value="'yourClassHere':hover {cursor: help;}" onclick="copyToClipboard('pointer3')"  id='pointer3'>
+                <p>help</p>
+            </div>
+            <div class="pointer pointer5" value="'yourClassHere':hover {cursor: e-resize;}" onclick="copyToClipboard('pointer5')"  id='pointer5'>
+                <p>e-resize <br> w-resize</p>
+            </div>
+            <div class="pointer pointer6" value="'yourClassHere':hover {cursor: n-resize;}" onclick="copyToClipboard('pointer6')"  id='pointer6'>
+                <p>n-resize <br> s-resize</p>
+            </div>
+            <div class="pointer pointer23" value="'yourClassHere':hover {cursor: zoom-in;}" onclick="copyToClipboard('pointer23')"  id='pointer23'>
+                <p>zoom-in</p>
+            </div>
+            <div class="pointer pointer24" value="'yourClassHere':hover {cursor: zoom-out;}"  id='pointer24'
+                onclick="copyToClipboard('pointer24')">
+                <p>zoom-out</p>
+            </div>
+            <div class="pointer pointer4" value="'yourClassHere':hover {cursor: move;}" onclick="copyToClipboard('pointer4')"  id='pointer4'>
+                <p>move</p>
+            </div>
+            <div class="pointer pointer9" value="'yourClassHere':hover {cursor: text;}" onclick="copyToClipboard('pointer9')"  id='pointer9'>
+                <p>text</p>
+            </div>
+            <div class="pointer pointer15" value="'yourClassHere':hover {cursor: vertical-text;}"  id='pointer15'
+                onclick="copyToClipboard('pointer15')">
+                <p>vertical-text</p>
+            </div>
+            <div class="pointer pointer12" value="'yourClassHere':hover {cursor: none;}" onclick="copyToClipboard('pointer12')"  id='pointer12'>
+                <p>none</p>
+            </div>
+            <div class="pointer pointer10" value="'yourClassHere':hover {cursor: wait;}" onclick="copyToClipboard('pointer10')"  id='pointer10'>
+                <p>wait</p>
+            </div>
+            <div class="pointer pointer11" value="'yourClassHere':hover {cursor: proggress;}"  id='pointer11'
+                onclick="copyToClipboard('pointer11')">
+                <p>proggress</p>
+            </div>
+            <div class="pointer pointer14" value="'yourClassHere':hover {cursor: cell;}" onclick="copyToClipboard('pointer14')"  id='pointer14'>
+                <p>cell</p>
+            </div>
+            <div class="pointer pointer16" value="'yourClassHere':hover {cursor: alias;}" onclick="copyToClipboard('pointer16')"  id='pointer16'>
+                <p>alias</p>
+            </div>
+            <div class="pointer pointer17" value="'yourClassHere':hover {cursor: copy;}" onclick="copyToClipboard('pointer17')"  id='pointer17'>
+                <p>copy</p>
+            </div>
+            <div class="pointer pointer18" value="'yourClassHere':hover {cursor: no-drop;}" onclick="copyToClipboard('pointer18')"  id='pointer18'>
+                <p>no-drop <br> not-allow</p>
+            </div>
+            <div class="pointer pointer20" value="'yourClassHere':hover {cursor: pointer;}" onclick="copyToClipboard('pointer20')"  id='pointer20'>
+                <p>col-resize</p>
+            </div>
+            <div class="pointer pointer21" value="'yourClassHere':hover {cursor: col-resize;}"  id='pointer21'
+                onclick="copyToClipboard('pointer21')">
+                <p>row-resize</p>
+            </div>
+            <div class="pointer pointer22" value="'yourClassHere':hover {cursor: all-scroll;}" id='pointer22'
+                onclick="copyToClipboard('pointer22')">
+                <p>all-scroll</p>
+            </div>
+            <div class="pointer pointer25" value="'yourClassHere':hover {cursor: grab;}" id='pointer25'
+                onclick="copyToClipboard('pointer25')">
+                <p>grab</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="content">
+                <h2 class="title">How to use them?</h2>
+                <p class="text">They can be used like this:</p>
+                <br>
+                <code class="code">
+                    <p>.myClass {</p>
+                    <p class="indented">cursor: optionSelected;</p>
+                    <p>}</p>
+                </code>
+            </div>
+        </div>
+    </footer>
+    <script>
+
+        function copyToClipboard(id) {
+            let myElement = document.getElementById(id);
+            let elementValue = myElement.getAttribute('value');
+            let dummy = document.createElement("textarea");
+            document.body.appendChild(dummy);
+            dummy.value = elementValue;
+            dummy.select();
+            document.execCommand("copy");
+            document.body.removeChild(dummy);
+            alert("You copied to Clipboard the code for this specific pointer.")
+        }
+
+    </script>
+</body>
+
+</html>

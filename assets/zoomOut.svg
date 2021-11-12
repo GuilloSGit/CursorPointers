@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2.5cm" height="2.5cm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 21000 21000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:white}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M-1076 -1118l25064 0 0 25156 -25064 0 0 -25156z"/>
+    </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2149120431632">
+   <g style="clip-path:url(#id0)">
+    <image x="-1076" y="-1118" width="25064" height="25156" xlink:href="zoomOut_Images\zoomOut_ImgID1.jpg"/>
+   </g>
+  </g>
+  <g id="_2149120432272">
+   <path class="fil0" d="M7665 2882c3130,-272 5661,2181 5910,5029 280,3202 -2165,5742 -5027,5984 -3225,273 -5769,-2164 -5993,-5067 -251,-3250 2171,-5691 5110,-5946zm-6583 5095l0 933c0,2132 1308,3912 2583,4957 2086,1709 5237,2069 7654,770 322,-173 570,-356 880,-520 239,357 5059,5095 5889,5927 485,486 1113,1058 1924,408 385,-308 350,-530 350,-972 0,-582 -290,-718 -602,-1030 -819,-817 -5691,-5612 -5928,-5965 163,-610 2331,-2888 589,-7118 -291,-707 -887,-1455 -1386,-1956 -641,-644 -1135,-924 -1957,-1386 -1575,-885 -4309,-846 -5956,-34 -1509,744 -2596,1780 -3367,3318 -385,767 -674,1548 -674,2669z"/>
+   <polygon class="fil0" points="4595,9209 11384,9219 11396,7517 4597,7482 "/>
+  </g>
+ </g>
+</svg>
